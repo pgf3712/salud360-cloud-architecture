@@ -100,7 +100,22 @@ The IaC approach focuses on:
 - environment parameterization
 - automated provisioning of networking, compute, storage, and database resources
 
-> Note: in this repository, Terraform is presented as an architectural and organizational approach rather than as a fully tested production deployment.
+> Note: A simplified Terraform structure is included to illustrate how the architecture could be provisioned using Infrastructure as Code principles. The implementation focuses on core components (VPC and networking) as a foundation for further extension.
+
+---
+
+## Terraform (IaC)
+
+A basic Terraform structure is included to demonstrate how the infrastructure could be provisioned programmatically.
+
+Current scope:
+- VPC definition
+- Subnet configuration
+
+Future extensions:
+- Load Balancer
+- Auto Scaling Group
+- Aurora database
 
 ---
 
