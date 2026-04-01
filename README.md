@@ -106,16 +106,13 @@ The IaC approach focuses on:
 
 ## Terraform (IaC)
 
-A basic Terraform structure is included to demonstrate how the infrastructure could be provisioned programmatically.
+A simplified modular Terraform structure is included to illustrate how the networking, compute, and database layers of the architecture could be provisioned using Infrastructure as Code principles.
 
-Current scope:
-- VPC definition
-- Subnet configuration
-
-Future extensions:
-- Load Balancer
-- Auto Scaling Group
-- Aurora database
+Current Terraform scope:
+- VPC and subnet structure
+- Internet Gateway
+- Application EC2 instance and security group
+- Database subnet group
 
 ---
 
